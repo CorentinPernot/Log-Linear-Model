@@ -1,4 +1,4 @@
-# Log-linear Model
+# Log-Linear Model
 
 Projet de 2ᵉ année à l'ENSAE Paris, réalisé dans le cadre du cours de **Simulations and Monte Carlo**.
 
