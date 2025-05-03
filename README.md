@@ -1,23 +1,27 @@
-# Log linear Model 
+# Log-linear Model
 
-Il s'agit d'un projet de 2ème année de l'ENSAE Paris dans le cadre du cours de $\textbf{Simulations and Monte Carlo}$
+Projet de 2ᵉ année à l'ENSAE Paris, réalisé dans le cadre du cours de **Simulations and Monte Carlo**.
 
-Les Log-linear models s'appliquent à un vecteur prenant ses valeurs dans $\{0,1\}^d$.
-La probabilité d'observer un certian x est telle que (pour un modèle restraint à un ordre 2 d'intéractions) :
+Les modèles log-linéaires s'appliquent à un vecteur aléatoire \( X \in \{0,1\}^d \).  
+La probabilité d'observer une certaine réalisation \( x \) est donnée, dans le cas d’un modèle restreint aux interactions d’ordre 2, par :
 
-$ log P(X=x) = \alpha + \sum_{i=1}^n \beta_i x_i + \sum_{i<j}^n \gamma_{ij} x_i x_j $  
+\[
+\log P(X = x) = \alpha + \sum_{i=1}^n \beta_i x_i + \sum_{i<j}^n \gamma_{ij} x_i x_j
+\]
 
+## Contenu du projet
 
-- La question 1. s'intéresse à générer des données à partir des paramètres $\beta$ et $\gamma$ fixés. 
-- Les questions suivantes, quant à elles, s'intéressent au fait de remonter aux paramètres étant donnée une distribution. 
+- **Question 1** : génération de données à partir de paramètres fixés \( \beta \) et \( \gamma \).
+- **Questions suivantes** : inférence des paramètres à partir d’une distribution donnée.
 
-$\textit{Charles Rollet, Alexandre Partensky et Corentin Pernot } $ 
+## Auteurs
 
-Sources: 
-> $\textit{ Cours de Monte Carlo, N.Chopin}$
+*Charles Rollet, Alexandre Partensky et Corentin Pernot*
 
-> $\textit{ MCMC for doubly-intractable distributions, I.Murray Z.Ghahramani D.J.C.MacKay}$ 
-https://mlg.eng.cam.ac.uk/zoubin/papers/doubly_intractable.pdf
+## Sources
 
-> $\textit{Computational Statistics, T. Donœux} $   
- https://www.hds.utc.fr/~tdenoeux/dokuwiki/_media/en/mcmc_slides.pdf  
+- *Cours de Monte Carlo*, Nicolas Chopin  
+- *MCMC for doubly-intractable distributions*, I. Murray, Z. Ghahramani, D. J. C. MacKay  
+  https://mlg.eng.cam.ac.uk/zoubin/papers/doubly_intractable.pdf  
+- *Computational Statistics*, T. Denœux  
+  https://www.hds.utc.fr/~tdenoeux/dokuwiki/_media/en/mcmc_slides.pdf
